@@ -18,6 +18,6 @@ job('NodeJS example') {
     }
     steps {
         //shell("npm install")
-        powerShell("npm install")
+        batchFile("npm install")
     }
 }
